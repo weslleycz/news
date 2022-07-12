@@ -8,7 +8,17 @@
 @media (max-width: 1080px) {
     html {
         font-size: 93.75%;
+        -webkit-font-smoothing: antialiased;
     }
+}
+
+img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 @media (max-width: 720px) {

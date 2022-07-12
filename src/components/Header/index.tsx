@@ -1,8 +1,7 @@
-import Styles from "./styles.module.scss";
 import { SignInButton } from "../SignInButton";
+import Styles from "./styles.module.scss";
 
 export const Header = () => {
-
   return (
     <header className={Styles.headerContainer}>
       <div className={Styles.headerContent}>
