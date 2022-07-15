@@ -19,9 +19,6 @@ export const SubscribeButton = ({ priceId }: SubscribeButtonProps) => {
       const response = await api.post("/subscribe");
       const { sessionid } = response.data;
       const stripe = await getStripeJs();
-
-      console.log(sessionid);
-
       await stripe?.redirectToCheckout({ sessionId: sessionid });
     } catch (error) {
       alert(error);
