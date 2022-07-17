@@ -57,8 +57,9 @@ As seguintes tecnologias foram utilizadas no projeto:
 
 - [Next.js](https://nextjs.org/)
 - [Prismic CMS](https://prismic.io/)
+- [Prisma](https://www.prisma.io)
+- [Postgresql](https://www.postgresql.org)
 - [Stripe](https://stripe.com/)
-- [FaunaDB](https://fauna.com/)
 
 ## :white_check_mark: Requerimentos ##
 
